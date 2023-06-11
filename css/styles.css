@@ -110,14 +110,14 @@ padding: 1rem;
 .carousel-item{
     padding: 7% 15%;
 }
-#pricing{
+#subjects{
   padding:100px;
   text-align: center;
 }
 .pricing-column{
   padding: 3% 2%;
 }
-#cta{
+#Information{
   background-color: #ff4c68;
   padding: 7% 15%;
   text-align: center;
@@ -133,7 +133,7 @@ padding: 1rem;
     transform: rotate(0);
   }
 }
-#footer{
+#contact{
   text-align: center;
   padding: 7% 15%;
 }
