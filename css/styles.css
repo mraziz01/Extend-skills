@@ -1,3 +1,4 @@
+
 body{
   font-family: "Montserrat";
 }
@@ -6,6 +7,9 @@ font-family: "Montserrat-bold";
 }
 p{
   color: #8f8f8f;
+}
+h3{
+  padding: 1%;
 }
 /*headings*/
 .headings-buld{
@@ -59,13 +63,11 @@ font-weight: bold;
 }
 .nav-item{
   padding: 0 18px;
+  align-items:
 }
 .nav-link{
   font-size: 1.2rem;
   font-family: "Montserrat-light"
-}
-.Download-button{
-  margin: 5% 3% 5% 0;
 }
 .icon-type{
 color: #ef8172;
@@ -140,3 +142,10 @@ padding: 1rem;
 .social-icon{
   margin: 20px 10px;
 }
+.row{
+  row-gap: 10px;
+}
+.sbtn{
+  background-color: #ff4c68;
+}
+/* next innerpages */
