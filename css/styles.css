@@ -25,6 +25,7 @@ h3{
   line-height: 1.5rem;
 }
 .section-heading{
+  position: inherit;
   font-size: 3rem;
   line-height: 1.5rem;
 }
@@ -89,7 +90,7 @@ padding: 1rem;
 /* testimonials */
 
 
-#testimonials{
+#About{
   background-color: #ff4c68;
   color: #fff;
   text-align: center;
@@ -148,4 +149,13 @@ padding: 1rem;
 .sbtn{
   background-color: #ff4c68;
 }
-/* next innerpages */
+.card{
+  position: relative;
+  height: 350px;
+  text-align: center;
+
+}
+.fixed-learn{
+  bottom: 20px;
+  text-align: center;
+}
