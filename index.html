@@ -10,11 +10,30 @@
 <link rel="stylesheet" href="css/styles.css">
 <!-- google fonts -->
 <script src="https://kit.fontawesome.com/ed96e1a649.js" crossorigin="anonymous"></script>
+<script>
+    window.onscroll = function() {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      var scrollToTopButton = document.getElementById("scrollToTop");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopButton.style.display = "block"; // Show the button when user scrolls down
+      } else {
+        scrollToTopButton.style.display = "none"; // Hide the button when user is at the top
+      }
+    }
+
+    function scrollToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    }
+  </script>
 
 </head>
 
 <body>
-
+<button onclick="scrollToTop()" id="scrollToTop" title="Go to top">^</button>
   <section id="title">
     <div class="container-fluid">
     <!-- Nav Bar -->
@@ -48,6 +67,8 @@
         <div class="logoimg col-lg-6">
            <img src="images/extendskillslogo.png" alt="page-logo" style="width:600px;">
            </div>
+
+  </div>
 
   </div>
   </section>
@@ -84,7 +105,7 @@
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2 class="testimonial-text">As both the developer and founder of this site, I relentlessly drive its evolution.</h2>
+          <h2 class="testimonial-text">As the developer and founder, I'm passionately propelling this site's growth and development.</h2>
           <img class="testimonial-image" src="images/aziz.jpg" alt="aziz-profile">
           <em>MD.Aziz ur rahman</em>
 
