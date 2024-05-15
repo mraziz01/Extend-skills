@@ -1,4 +1,13 @@
 
+@media only screen and (max-width: 960px) {
+  .mainlogo {
+    padding-left: 0 !important;
+  }
+}
+.mainlogo {
+  padding-left: 100px;
+}
+
 body{
   font-family: "Montserrat";
 }
