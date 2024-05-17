@@ -184,7 +184,12 @@ h3 {
   bottom: 20px;
   text-align: center;
 }
-
+.description-text {
+    color: #fff;
+    font-style: italic;
+    margin-top: 1px;
+    padding:1rem 1rem ;
+}
 #scrollToTop {
   display: none;
   /* Initially hide the button */
